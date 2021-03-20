@@ -60,10 +60,10 @@
 
   /* Resume Section
    ------------------------------------------------------------------- */
-  #resume h1 {
+  .resume h1 {
     font: 16px/24px "Montserrat-Medium", sans-serif;
   }
-  #resume .main-col {
+  .resume .main-col {
     padding-right: 5%;
   }
 
@@ -122,7 +122,15 @@
   .skillscontainer {
     padding: 0;
   }
-
+  .resume .work .main-col div {
+    padding-left: 10px;
+  }
+  .resume .info span {
+    display: none;
+  }
+  .resume .date {
+    display: block;
+  }
   /* mobile navigation
    -------------------------------------------------------------------- */
   #nav-wrap {
@@ -268,18 +276,18 @@
 
   /* Resume Section
    --------------------------------------------------------------------- */
-  #resume .header-col {
+  .resume .header-col {
     padding-top: 0;
     margin-bottom: 48px;
     text-align: center;
   }
-  #resume h1 {
+  .resume h1 {
     letter-spacing: 3px;
   }
-  #resume .main-col {
+  .resume .main-col {
     padding-right: 30px;
   }
-  #resume h3 {
+  .resume h3 {
     font: 18px/27px "Montserrat-SemiBold", sans-serif;
   }
 
@@ -307,7 +315,9 @@
   #call-to-action p {
     font-size: 15px;
   }
-
+  footer {
+    padding: 25px 0;
+  }
   /* Portfolio Section
    /* ----------------------------------------------------------------- */
   #portfolio {
@@ -315,6 +325,7 @@
   }
   #portfolio h1 {
     margin-bottom: 10px;
+    font: 16px/30px "Montserrat-SemiBold", sans-serif;
   }
   #portfolio-wrapper .columns {
     margin-bottom: 40px;
@@ -438,11 +449,15 @@
   -------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 480px) {
-  #resume .work .main-col div:before {
+  .skillscard ul {
+    padding: 0;
+  }
+  .resume .work .main-col div:before {
     display: none;
   }
-  #resume .work .main-col {
+  .resume .work .main-col {
     border: none;
+    padding: 0;
   }
   header {
     max-height: 500px;

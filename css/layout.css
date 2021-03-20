@@ -318,41 +318,41 @@ ul#nav li.current a {
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
-#resume {
+.resume {
   background: #fff;
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
 }
 
-#resume a,
-#resume a:visited {
+.resume a,
+.resume a:visited {
   color: #f05f40;
 }
-#resume a:hover,
-#resume a:focus {
+.resume a:hover,
+.resume a:focus {
   color: #313131;
 }
 
-#resume h1 {
+.resume h1 {
   font: 18px/24px "Montserrat-SemiBold", sans-serif;
   font: 22px/18px "Montserrat-SemiBold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-#resume h1 span {
+.resume h1 span {
   border-bottom: 3px solid #f05f40;
   padding-bottom: 6px;
 }
-#resume h3 {
+.resume h3 {
   font: 25px/30px "Montserrat-SemiBold", sans-serif;
   font: 20px/26px "Montserrat-SemiBold", sans-serif;
 }
 
-#resume .header-col {
+.resume .header-col {
   padding-top: 9px;
 }
-#resume .main-col {
+.resume .main-col {
   padding-right: 10%;
 }
 
@@ -362,29 +362,29 @@ ul#nav li.current a {
   padding-bottom: 24px;
   border-bottom: 1px solid #e8e8e8;
 }
-#resume .info {
+.resume .info {
   font: 16px/24px "Poppins-Medium", serif;
   color: #6e7881;
   margin-bottom: 0;
   margin-top: 9px;
 }
-#resume .info span {
+.resume .info span {
   margin-right: 5px;
   margin-left: 20px;
 }
-#resume .date {
+.resume .date {
   font: 15px/24px "Poppins-Regular", sans-serif;
   margin-top: 6px;
 }
-#resume .work .main-col {
+.resume .work .main-col {
   border-left: 2px solid #c3c3c3;
   padding-left: 0;
 }
-#resume .work .main-col div {
+.resume .work .main-col div {
   padding-left: 30px;
   position: relative;
 }
-#resume .work .main-col div:before {
+.resume .work .main-col div:before {
   position: absolute;
   top: 0px;
   left: -9px;
@@ -395,7 +395,7 @@ ul#nav li.current a {
   content: "";
   border: 3px solid #fcb3a4;
 }
-#resume .work .main-col div:last-child:after {
+.resume .work .main-col div:last-child:after {
   content: "";
   display: block;
   position: absolute;
