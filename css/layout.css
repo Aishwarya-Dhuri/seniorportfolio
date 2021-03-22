@@ -179,7 +179,7 @@ header .scrolldown a:hover {
   font: 12px "Montserrat-SemiBold", sans-serif;
   width: 100%;
   text-transform: uppercase;
-  letter-spacing: 2.5px;
+  letter-spacing: 1px;
   margin: 0 auto;
   z-index: 100;
   position: fixed;

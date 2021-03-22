@@ -151,7 +151,7 @@
     width: 48px;
     height: 48px;
     text-align: left;
-    background-color: #cc5200;
+    background-color: #f05f40;
     position: relative;
     border: none;
     float: right;
@@ -165,7 +165,7 @@
     right: 0;
   }
 
-  #nav-wrap > a:before,
+  /* #nav-wrap > a:before,
   #nav-wrap > a:after {
     position: absolute;
     border: 2px solid #fff;
@@ -176,6 +176,15 @@
   }
   #nav-wrap > a:after {
     top: 60%;
+  } */
+
+  #nav-wrap > a i {
+    color: white;
+    font-size: 20px;
+    top: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   /* toggle buttons */
@@ -202,10 +211,11 @@
     width: 100%;
 
     display: block;
-    padding: 30px 20px 30px 20px;
+    padding: 20px 30px;
     background: #1f2024;
     margin: 0 0;
     clear: both;
+    top: 0;
   }
 
   ul#nav li {
