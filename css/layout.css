@@ -334,7 +334,8 @@ ul#nav li.current a {
   color: #313131;
 }
 
-.resume h1 {
+.resume h1,
+.skills h1 {
   font: 18px/24px "Montserrat-SemiBold", sans-serif;
   font: 22px/18px "Montserrat-SemiBold", sans-serif;
   text-transform: uppercase;
@@ -1232,6 +1233,7 @@ footer .social-links li:first-child {
   margin: 0 auto;
   padding: 50px 0 0 0;
   position: relative;
+  background-color: #fff;
 }
 .skillscontainer:before {
   content: "";
@@ -1280,6 +1282,7 @@ footer .social-links li:first-child {
   display: block;
   text-align: center;
   margin-bottom: 20px;
+  font: 20px/26px "Montserrat-SemiBold", sans-serif;
 }
 
 .skillscard ul {
